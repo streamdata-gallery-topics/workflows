@@ -17,7 +17,18 @@ created: "2018-03-13"
 modified: "2018-03-13"
 url: https://raw.githubusercontent.com/streamdata-gallery/workflows/master/_listings/apimetrics/apis.yaml
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: APIMetrics
+  description: APImetrics builds on 3 years experience gained working on the challenge
+    of API abstraction and management that is critical to every App and Web Service
+    in use today
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-metrics-logo.png
+  humanURL: ""
+  baseURL: https:///
+  tags: Workflows
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery/workflows/master/_listings/apimetrics/workflows-post.md
 x-common:
 - type: x-base-url
   url: https://client.apimetrics.io
