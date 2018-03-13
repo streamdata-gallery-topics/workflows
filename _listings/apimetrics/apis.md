@@ -28,7 +28,7 @@ apis:
   tags: Workflows
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/workflows/master/_listings/apimetrics/workflows-id-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/workflows/master/_listings/apimetrics/workflows-id-get.md
 x-common:
 - type: x-base-url
   url: https://client.apimetrics.io
