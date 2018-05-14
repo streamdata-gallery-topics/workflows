@@ -30,17 +30,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/workflows/master/_listings/azure-logic-apps/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-logic-locations-location-workflows-workflowname-validate-post.md
-- name: Azure Logic Apps API Workflows Delete
-  description: Deletes a workflow.
+- name: Azure Logic Apps API Workflows Disable
+  description: Disables a workflow.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-logic-apps-01-connectors.png
   humanURL: https://azure.microsoft.com/en-us/services/logic-apps/
   baseURL: http:://management.azure.com//
   tags: Workflows
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/workflows/master/_listings/azure-logic-apps/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-logic-workflows-workflowname-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/workflows/master/_listings/azure-logic-apps/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-logic-workflows-workflowname-disable-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/workflows/master/_listings/azure-logic-apps/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-logic-workflows-workflowname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/workflows/master/_listings/azure-logic-apps/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-logic-workflows-workflowname-disable-post-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/logic-apps/
