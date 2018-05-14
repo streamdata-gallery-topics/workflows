@@ -30,17 +30,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/workflows/master/_listings/azure-logic-apps/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-logic-locations-location-workflows-workflowname-validate-post.md
-- name: Azure Logic Apps API Workflows List By Resource Group
-  description: Gets a list of workflows by resource group.
+- name: Azure Logic Apps API Workflows Get
+  description: Gets a workflow.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-logic-apps-01-connectors.png
   humanURL: https://azure.microsoft.com/en-us/services/logic-apps/
   baseURL: http:://management.azure.com//
   tags: Workflows
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/workflows/master/_listings/azure-logic-apps/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-logic-workflows-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/workflows/master/_listings/azure-logic-apps/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-logic-workflows-workflowname-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/workflows/master/_listings/azure-logic-apps/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-logic-workflows-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/workflows/master/_listings/azure-logic-apps/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-logic-workflows-workflowname-get-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/logic-apps/
