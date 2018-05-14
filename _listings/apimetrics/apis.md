@@ -29,15 +29,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/workflows/master/_listings/apimetrics/workflows-id-put.md
-- name: APIMetrics Get an existing Workflow
-  description: Get an existing Workflow
+- name: APIMetrics Trigger a Workflow to run now
+  description: Trigger a Workflow to run now
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-metrics-logo.png
   humanURL: http://apimetrics.io
   baseURL: https://{host}//
   tags: Workflows
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/workflows/master/_listings/apimetrics/workflows-id-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/workflows/master/_listings/apimetrics/workflows-id-post.md
 x-common:
 - type: x-base-url
   url: https://client.apimetrics.io
