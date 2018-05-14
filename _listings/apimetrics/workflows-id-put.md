@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: APImetrics Merged API
+  title: APIMetrics Create a new Workflow
   version: 1.0.0
+  description: Create a new Workflow
 schemes:
 - http
 produces:
