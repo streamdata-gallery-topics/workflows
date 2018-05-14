@@ -50,6 +50,26 @@ x-common:
   url: https://twitter.com/apimetricstats
 - type: x-website
   url: http://apimetrics.io
+- type: x-base-url
+  url: https://client.apimetrics.io
+- type: x-blog
+  url: http://apimetrics.io/blog/
+- type: x-blog-rss
+  url: http://apimetrics.io/feed/
+- type: x-developer
+  url: https://apimetrics.readme.io/
+- type: x-github
+  url: https://github.com/APImetrics
+- type: x-pricing
+  url: http://apimetrics.io/
+- type: x-privacy
+  url: http://apimetrics.io/privacy
+- type: x-terms-of-service
+  url: http://apimetrics.io/tos
+- type: x-twitter
+  url: https://twitter.com/apimetricstats
+- type: x-website
+  url: http://apimetrics.io
 include: []
 maintainers:
 - FN: Kin Lane
