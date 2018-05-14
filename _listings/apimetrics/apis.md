@@ -29,6 +29,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/workflows/master/_listings/apimetrics/workflows-id-put.md
+- name: APIMetrics Create new Authentication Settings
+  description: Create new Authentication Settings
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-metrics-logo.png
+  humanURL: http://apimetrics.io
+  baseURL: https://{host}//
+  tags: Workflows
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/workflows/master/_listings/apimetrics/workflows-post.md
 x-common:
 - type: x-base-url
   url: https://client.apimetrics.io
