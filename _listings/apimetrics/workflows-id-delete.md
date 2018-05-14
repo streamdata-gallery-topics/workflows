@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: APImetrics Merged API
+  title: APIMetrics Delete a Workflow
   version: 1.0.0
+  description: Delete a Workflow
 schemes:
 - http
 produces:
