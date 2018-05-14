@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: APImetrics Merged API
+  title: APIMetrics Trigger a Workflow to run now
   version: 1.0.0
+  description: Trigger a Workflow to run now
 schemes:
 - http
 produces:
