@@ -1,26 +1,21 @@
 ---
 name: APImetrics
 x-slug: apimetrics
-description: APImetrics builds on 3 years experience gained working on the challenge
-  of API abstraction and management that is critical to every App and Web Service
-  in use today. By combining elements gained from API management tools and authentication
-  technologies, APImetrics have been able to build the first, complete, end-to-end
-  API performance test solution. This allows developers, enterprises and API providers
-  to model complex API scenarios and provide them with real time monitoring and alerts
-  when things go wrong.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-metrics-logo.png
+description: API performance monitoring, Cloud Service, SLA monitoring and analysis
+  that gives you answers, not excuses. Find out how today.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1916-apimetrics.jpg
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "2264063"
 tags: Workflows
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/workflows/master/_listings/apimetrics/apis.md
 specificationVersion: "0.14"
 apis:
 - name: APIMetrics List all Workflows
   x-api-slug: apimetrics
   description: List all Workflows
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-metrics-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1916-apimetrics.jpg
   humanURL: http://apimetrics.io
   baseURL: https://///workflows/
   tags: Monitoring,Workflows
@@ -30,7 +25,7 @@ apis:
 - name: APIMetrics Create new Authentication Settings
   x-api-slug: apimetrics
   description: Create new Authentication Settings
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-metrics-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1916-apimetrics.jpg
   humanURL: http://apimetrics.io
   baseURL: https://///workflows/
   tags: Monitoring,Workflows
@@ -40,7 +35,7 @@ apis:
 - name: APIMetrics Delete a Workflow
   x-api-slug: apimetrics
   description: Delete a Workflow
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-metrics-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1916-apimetrics.jpg
   humanURL: http://apimetrics.io
   baseURL: https://///workflows/{id}/
   tags: Monitoring,Workflows
@@ -50,7 +45,7 @@ apis:
 - name: APIMetrics Get an existing Workflow
   x-api-slug: apimetrics
   description: Get an existing Workflow
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-metrics-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1916-apimetrics.jpg
   humanURL: http://apimetrics.io
   baseURL: https://///workflows/{id}/
   tags: Monitoring,Workflows
@@ -60,7 +55,7 @@ apis:
 - name: APIMetrics Trigger a Workflow to run now
   x-api-slug: apimetrics
   description: Trigger a Workflow to run now
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-metrics-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1916-apimetrics.jpg
   humanURL: http://apimetrics.io
   baseURL: https://///workflows/{id}/
   tags: Monitoring,Workflows
@@ -70,7 +65,7 @@ apis:
 - name: APIMetrics Create a new Workflow
   x-api-slug: apimetrics
   description: Create a new Workflow
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-metrics-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1916-apimetrics.jpg
   humanURL: http://apimetrics.io
   baseURL: https://///workflows/{id}/
   tags: Monitoring,Workflows
@@ -79,14 +74,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/workflows/master/_listings/apimetrics/workflowsid-put-openapi.md
 - name: APIMetrics
   x-api-slug: apimetrics
-  description: APImetrics builds on 3 years experience gained working on the challenge
-    of API abstraction and management that is critical to every App and Web Service
-    in use today. By combining elements gained from API management tools and authentication
-    technologies, APImetrics have been able to build the first, complete, end-to-end
-    API performance test solution. This allows developers, enterprises and API providers
-    to model complex API scenarios and provide them with real time monitoring and
-    alerts when things go wrong.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-metrics-logo.png
+  description: API performance monitoring, Cloud Service, SLA monitoring and analysis
+    that gives you answers, not excuses. Find out how today.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1916-apimetrics.jpg
   humanURL: http://apimetrics.io
   baseURL: https:///
   tags: Workflows
@@ -100,6 +90,8 @@ x-common:
   url: http://apimetrics.io/blog/
 - type: x-blog-rss
   url: http://apimetrics.io/feed/
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/apimetrics
 - type: x-developer
   url: https://apimetrics.readme.io/
 - type: x-github

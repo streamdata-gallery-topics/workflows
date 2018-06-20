@@ -1,10 +1,10 @@
 ---
 swagger: "2.0"
 x-collection-name: Azure Logic Apps
-x-complete: 1
+x-complete: 0
 info:
-  title: LogicManagementClient
-  description: rest-api-for-azure-logic-apps-
+  title: Azure Logic Apps API Workflows Generate Upgraded Definition
+  description: Generates the upgraded definition for a workflow.
   version: 1.0.0
 host: management.azure.com
 basePath: /
@@ -210,77 +210,17 @@ paths:
           description: OK
       tags:
       - Workflows Generate Upgraded Definition
-  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/listSwagger
-  : post:
-      summary: Workflows List Swagger
-      description: Gets an OpenAPI definition for the workflow.
-      operationId: Workflows_ListSwagger
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-logicworkflowsworkflownamelistswagger-post
-      parameters:
-      - in: query
-        name: No Name
-      - in: path
-        name: resourceGroupName
-        description: The resource group name
-      - in: path
-        name: workflowName
-        description: The workflow name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Workflows Swagger
-  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/regenerateAccessKey
-  : post:
-      summary: Workflows Regenerate Access Key
-      description: Regenerates the callback URL access key for request triggers.
-      operationId: Workflows_RegenerateAccessKey
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-logicworkflowsworkflownameregenerateaccesskey-post
-      parameters:
-      - in: body
-        name: keyType
-        description: The access key type
-        schema:
-          $ref: '#/definitions/holder'
-      - in: query
-        name: No Name
-      - in: path
-        name: resourceGroupName
-        description: The resource group name
-      - in: path
-        name: workflowName
-        description: The workflow name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Workflows Regenerate Access Key
-  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/locations/{location}/workflows/{workflowName}/validate
-  : post:
-      summary: Workflows Validate
-      description: Validates the workflow definition.
-      operationId: Workflows_Validate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-logiclocationslocationworkflowsworkflownamevalidate-post
-      parameters:
-      - in: path
-        name: location
-        description: The workflow location
-      - in: query
-        name: No Name
-      - in: path
-        name: resourceGroupName
-        description: The resource group name
-      - in: body
-        name: workflow
-        description: The workflow definition
-        schema:
-          $ref: '#/definitions/holder'
-      - in: path
-        name: workflowName
-        description: The workflow name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Workflows Validate
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
 ---
