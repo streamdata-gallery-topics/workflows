@@ -15,49 +15,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /subscriptions/{subscriptionId}/providers/Microsoft.Logic/workflows:
-    get:
-      summary: Workflows List By Subscription
-      description: Gets a list of workflows by subscription.
-      operationId: Workflows_ListBySubscription
-      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoft-logicworkflows-get
-      parameters:
-      - in: query
-        name: $filter
-        description: The filter to apply on the operation
-      - in: query
-        name: $top
-        description: The number of items to be included in the result
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Workflows Subscription
-  /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows:
-    get:
-      summary: Workflows List By Resource Group
-      description: Gets a list of workflows by resource group.
-      operationId: Workflows_ListByResourceGroup
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-logicworkflows-get
-      parameters:
-      - in: query
-        name: $filter
-        description: The filter to apply on the operation
-      - in: query
-        name: $top
-        description: The number of items to be included in the result
-      - in: query
-        name: No Name
-      - in: path
-        name: resourceGroupName
-        description: The resource group name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Workflows Resource Group
   /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}:
     get:
       summary: Workflows Get
