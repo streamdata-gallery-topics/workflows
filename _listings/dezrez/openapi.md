@@ -13,6 +13,197 @@ produces:
 consumes:
 - application/json
 paths:
+  /api/admin/businessworkflow/start:
+    post:
+      summary: Starts a workflow with the given parameters.
+      description: Starts a workflow with the given parameters..
+      operationId: BusinessWorkflow_StartWorkflowByinvokeCommand
+      x-api-path-slug: apiadminbusinessworkflowstart-post
+      parameters:
+      - in: body
+        name: invokeCommand
+        schema:
+          $ref: '#/definitions/holder'
+      - in: header
+        name: Rezi-Api-Version
+        description: Specifies which version of the API to call
+      responses:
+        200:
+          description: OK
+      tags:
+      - Starts
+      - Workflow
+      - Given
+      - Parameters
+  /api/admin/businessworkflow/listWorkflows:
+    get:
+      summary: Starts a workflow with the given parameters.
+      description: Starts a workflow with the given parameters..
+      operationId: BusinessWorkflow_ListWorkflowsByskipBytake
+      x-api-path-slug: apiadminbusinessworkflowlistworkflows-get
+      parameters:
+      - in: header
+        name: Rezi-Api-Version
+        description: Specifies which version of the API to call
+      - in: query
+        name: skip
+        description: Used for paging results
+      - in: query
+        name: take
+        description: Used for paging results
+      responses:
+        200:
+          description: OK
+      tags:
+      - Starts
+      - Workflow
+      - Given
+      - Parameters
+  /api/admin/businessworkflow/{workflowName}:
+    get:
+      summary: Lists instances of a given workflow
+      description: Lists instances of a given workflow.
+      operationId: BusinessWorkflow_ListWorkflowInstancesByworkflowNameByskipBytake
+      x-api-path-slug: apiadminbusinessworkflowworkflowname-get
+      parameters:
+      - in: header
+        name: Rezi-Api-Version
+        description: Specifies which version of the API to call
+      - in: query
+        name: skip
+      - in: query
+        name: take
+      - in: path
+        name: workflowName
+      responses:
+        200:
+          description: OK
+      tags:
+      - Lists
+      - Instances
+      - Of
+      - Given
+      - Workflow
+    delete:
+      summary: Terminates a running workflow instance.
+      description: Terminates a running workflow instance..
+      operationId: BusinessWorkflow_TerminateWorkflowInstanceByworkflowNameByworkflowInstanceHandleByreason
+      x-api-path-slug: apiadminbusinessworkflowworkflowname-delete
+      parameters:
+      - in: query
+        name: reason
+      - in: header
+        name: Rezi-Api-Version
+        description: Specifies which version of the API to call
+      - in: query
+        name: workflowInstanceHandle
+      - in: path
+        name: workflowName
+      responses:
+        200:
+          description: OK
+      tags:
+      - Terminates
+      - Running
+      - Workflow
+      - Instance
+  /api/coreplatformstate/reportMigration/{migrationId}:
+    post:
+      summary: Reports that a data migration has been shedueled - used by workflow
+      description: Reports that a data migration has been shedueled - used by workflow.
+      operationId: CorePlatformState_ReportMigrationStateBymigrationId
+      x-api-path-slug: apicoreplatformstatereportmigrationmigrationid-post
+      parameters:
+      - in: path
+        name: migrationId
+      - in: header
+        name: Rezi-Api-Version
+        description: Specifies which version of the API to call
+      responses:
+        200:
+          description: OK
+      tags:
+      - Reports
+      - That
+      - Data
+      - Migration
+      - Has
+      - Been
+      - Shedueled
+      - '-'
+      - Used
+      - By
+      - Workflow
+  /api/workflow/start:
+    post:
+      summary: Starts a workflow with the given parameters.
+      description: Starts a workflow with the given parameters..
+      operationId: Workflow_StartWorkflowByinvokeCommand
+      x-api-path-slug: apiworkflowstart-post
+      parameters:
+      - in: body
+        name: invokeCommand
+        schema:
+          $ref: '#/definitions/holder'
+      - in: header
+        name: Rezi-Api-Version
+        description: Specifies which version of the API to call
+      responses:
+        200:
+          description: OK
+      tags:
+      - Starts
+      - Workflow
+      - Given
+      - Parameters
+  /api/workflow/{workflowName}:
+    get:
+      summary: Lists instances of a given workflow
+      description: Lists instances of a given workflow.
+      operationId: Workflow_ListWorkflowInstancesByworkflowNameByskipBytake
+      x-api-path-slug: apiworkflowworkflowname-get
+      parameters:
+      - in: header
+        name: Rezi-Api-Version
+        description: Specifies which version of the API to call
+      - in: query
+        name: skip
+      - in: query
+        name: take
+      - in: path
+        name: workflowName
+      responses:
+        200:
+          description: OK
+      tags:
+      - Lists
+      - Instances
+      - Of
+      - Given
+      - Workflow
+    delete:
+      summary: Terminates a running workflow instance.
+      description: Terminates a running workflow instance..
+      operationId: Workflow_TerminateWorkflowInstanceByworkflowNameByworkflowInstanceHandleByreason
+      x-api-path-slug: apiworkflowworkflowname-delete
+      parameters:
+      - in: query
+        name: reason
+      - in: header
+        name: Rezi-Api-Version
+        description: Specifies which version of the API to call
+      - in: query
+        name: workflowInstanceHandle
+      - in: path
+        name: workflowName
+      responses:
+        200:
+          description: OK
+      tags:
+      - Terminates
+      - Running
+      - Workflow
+      - Instance
   /api/coreplatformstate/platformissue:
     post:
       summary: Allows business workflows to post system issues to the platform state
@@ -90,27 +281,3 @@ paths:
       - Lists
       - Available
       - Workflows
-  /api/admin/businessworkflow/listWorkflows:
-    get:
-      summary: Starts a workflow with the given parameters.
-      description: Starts a workflow with the given parameters..
-      operationId: BusinessWorkflow_ListWorkflowsByskipBytake
-      x-api-path-slug: apiadminbusinessworkflowlistworkflows-get
-      parameters:
-      - in: header
-        name: Rezi-Api-Version
-        description: Specifies which version of the API to call
-      - in: query
-        name: skip
-        description: Used for paging results
-      - in: query
-        name: take
-        description: Used for paging results
-      responses:
-        200:
-          description: OK
-      tags:
-      - Starts
-      - Workflow
-      - Given
-      - Parameters

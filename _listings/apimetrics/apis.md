@@ -12,6 +12,17 @@ modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/workflows/master/_listings/apimetrics/apis.md
 specificationVersion: "0.14"
 apis:
+- name: APImetrics Merged API - Get all Deployments for a Workflow
+  x-api-slug: deploymentsworkflowworkflow-id-get
+  description: Get all Deployments for a Workflow
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1916-apimetrics.jpg
+  humanURL: http://apimetrics.io
+  baseURL: https:///
+  tags: Monitoring, My API Stack, SaaS, Technology, API Service Provider, SDIO Partner,
+    Profiles
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/workflows/master/_listings/apimetrics/deploymentsworkflowworkflow-id-get-openapi.md
 - name: APImetrics Merged API - List all Workflows
   x-api-slug: workflows-get
   description: List all Workflows

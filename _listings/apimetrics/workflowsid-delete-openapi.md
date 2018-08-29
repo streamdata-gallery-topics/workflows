@@ -13,6 +13,24 @@ produces:
 consumes:
 - application/json
 paths:
+  /deployments/workflow/{workflow_id}:
+    get:
+      summary: Get all Deployments for a Workflow
+      description: Get all Deployments for a Workflow
+      operationId: getAllDeploymentForAWorkflow
+      x-api-path-slug: deploymentsworkflowworkflow-id-get
+      parameters:
+      - in: path
+        name: workflow_id
+        description: ID of the Workflow
+      responses:
+        200:
+          description: OK
+      tags:
+      - Monitoring
+      - Deployments
+      - Workflow
+      - Workflow
   /workflows/:
     get:
       summary: List all Workflows

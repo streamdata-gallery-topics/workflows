@@ -53,6 +53,36 @@
 			]
 		},
 		{
+			"name": "Predix",
+			"x-api-slug": "predix",
+			"description": "Predix (IoT PaaS) helps you develop apps that connect people with industrial machines through analytics and data for better business outcomes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png",
+			"humanURL": "https://www.predix.io",
+			"baseURL": "https:////v1",
+			"tags": "Workflows",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/workflows/master/_listings/predix/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Codefresh",
+			"x-api-slug": "codefresh",
+			"description": "Docker Automation and Collaboration for Agile Teams. Codefresh lets dev, QA and product work together on Docker compositions, including CI/CD, manual testing and feature previews.Codefresh enables you to instantly leverage all the benefits of Docker, w...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg",
+			"humanURL": "https://codefresh.io",
+			"baseURL": "https://g.codefresh.io//api",
+			"tags": "Workflows",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/workflows/master/_listings/codefresh/openapi.md"
+				}
+			]
+		},
+		{
 			"name": "Azure Blockchain Workbench",
 			"x-api-slug": "azure-blockchain-workbench",
 			"description": "Azure Blockchain Workbench helps organizations build rich, integrated multi-party blockchain applications quickly and easily. Azure Blockchain Workbench REST API provides developers and information workers a way to integrate to blockchain applications. For example, a developer can use the REST API to enable IoT devices to send data to a blockchain application. Or, an information worker can use the REST API and Power BI to create visualization of blockchain data.",
@@ -96,6 +126,14 @@
 		{
 			"name": "Azure Logic Apps",
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/workflows/master/_listings/azure-logic-apps/apis.yaml"
+		},
+		{
+			"name": "Predix",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/workflows/master/_listings/predix/apis.yaml"
+		},
+		{
+			"name": "Codefresh",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/workflows/master/_listings/codefresh/apis.yaml"
 		},
 		{
 			"name": "Azure Blockchain Workbench",
